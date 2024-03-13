@@ -1,0 +1,26 @@
+{
+    "path_checkpoints": [
+        "/kaggle/working/Fooocus/models/checkpoints"
+    ],
+    "path_loras": [
+        "/kaggle/working/Fooocus/models/loras"
+    ],
+    "path_embeddings": "/kaggle/working/Fooocus/models/embeddings",
+    "path_vae_approx": "/kaggle/working/Fooocus/models/vae_approx",
+    "path_upscale_models": "/kaggle/working/Fooocus/models/upscale_models",
+    "path_inpaint": "/kaggle/working/Fooocus/models/inpaint",
+    "path_controlnet": "/kaggle/working/Fooocus/models/controlnet",
+    "path_clip_vision": "/kaggle/working/Fooocus/models/clip_vision",
+    "path_fooocus_expansion": "/kaggle/working/Fooocus/models/prompt_expansion/fooocus_expansion",
+    "path_outputs": "/kaggle/working/Fooocus/outputs"'=
+    "default_cfg_scale": 3.0,
+    "default_sampler": "dpmpp_2m",
+    "default_scheduler": "karras",
+    "default_negative_prompt": "low quality",
+    "default_positive_prompt": "",
+    "default_styles": [
+        "Fooocus V2",
+        "Fooocus Photograph",
+        "Fooocus Negative"
+    ]
+}
