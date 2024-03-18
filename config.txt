@@ -12,7 +12,7 @@
     "path_controlnet": "/kaggle/working/Fooocus/models/controlnet",
     "path_clip_vision": "/kaggle/working/Fooocus/models/clip_vision",
     "path_fooocus_expansion": "/kaggle/working/Fooocus/models/prompt_expansion/fooocus_expansion",
-    "path_outputs": "/kaggle/working/Fooocus/outputs"'=
+    "path_outputs": "/kaggle/working/Fooocus/outputs",
     "default_cfg_scale": 3.0,
     "default_sampler": "dpmpp_2m",
     "default_scheduler": "karras",
