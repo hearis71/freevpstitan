@@ -15,9 +15,8 @@
     "path_outputs": "/kaggle/working/Fooocus/outputs",
 
     "temp_path": "/tmp/fooocus",
-    "temp_path_cleanup_on_launch": true,
+    "temp_path_cleanup_on_launch": false,
 
-    "default_model": "juggernautXL_v8Rundiffusion.safetensors",
 
     "default_refiner": "Realistic_Vision_V6.0_B1.safetensors"
     "default_refiner_switch": 0.4
