@@ -50,8 +50,8 @@
         ]
     ],
 
-    "default_max_lora_number": 5,
-    "default_cfg_scale": 4.0,
+
+    "default_cfg_scale": 5.0,
     "default_sample_sharpness": 2.0,
     "default_sampler": "dpmpp_2m_sde_gpu",
     "default_scheduler": "karras",
@@ -61,13 +61,11 @@
         "Fooocus Sharp"
     ],
     "default_prompt_negative": "",
-    "default_prompt": "race car , on garage , (cinematic shot)
-
-                    ,ultra realistic, <lora:add_detail:2>,<lora:more_details:0.5>",
+    "default_prompt": "race car, on garage , (cinematic shot),ultra realistic, <lora:add_detail:2>,%$r<lora:more_details:0.5>",
     "default_performance": "Speed",
-    "default_advanced_checkbox": false,
+    "default_advanced_checkbox": true,
     "default_max_image_number": 32,
-    "default_output_format": "png",
+    "default_output_format": "webp",
     "default_image_number": 1,
 
     "default_aspect_ratio": "1152*896",
