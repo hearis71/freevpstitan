@@ -22,6 +22,9 @@
     "default_refiner": "Realistic_Vision_V6.0_B1.safetensors",
     "default_refiner_switch": 0.4,
 
+    "default_loras_min_weight": -2,
+    "default_loras_max_weight": 2,
+
     "default_loras": [
         [
             true,
@@ -51,7 +54,7 @@
     ],
 
     "default_max_lora_number": 5,
-    "default_cfg_scale": 4.0,
+    "default_cfg_scale": 7.0,
     "default_sample_sharpness": 2.0,
     "default_sampler": "dpmpp_2m_sde_gpu",
     "default_scheduler": "karras",
@@ -61,7 +64,7 @@
         "Fooocus Sharp"
     ],
     "default_prompt_negative": "",
-    "default_prompt": "race car , on garage , (cinematic shot),ultra realistic, <lora:add_detail:2>,<lora:more_details:0.5>",
+    "default_prompt": "race car , on garage , (cinematic shot),ultra realistic, <lora:add_detail:2>,<lora:more_details:0.5>,<lora:xl_more_art-full_v1:1>",
     "default_performance": "Speed",
     "default_advanced_checkbox": true,
     "default_max_image_number": 32,
