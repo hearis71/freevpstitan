@@ -38,8 +38,8 @@
         ],
         [
             true,
-            "None",
-            1.0
+            "Midjourney-Mimic-v1.2.safetensors",
+            1.20
         ],
         [
             true,
@@ -64,7 +64,7 @@
         "Fooocus Sharp"
     ],
     "default_prompt_negative": "",
-    "default_prompt": "race car , on garage , (cinematic shot),ultra realistic, <lora:add_detail:2>,<lora:more_details:0.5>,<lora:xl_more_art-full_v1:1>",
+    "default_prompt": "race car , on garage , (cinematic shot),ultra realistic, <lora:add_detail:2>,<lora:more_details:0.5>,<lora:xl_more_art-full_v1:1>,<lora:MJ52:0.8>",
     "default_performance": "Speed",
     "default_advanced_checkbox": true,
     "default_max_image_number": 32,
